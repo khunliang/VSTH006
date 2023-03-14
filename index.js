@@ -8,7 +8,7 @@ let discountButton = document.getElementById('discount-button')；
 let message = document.getElementById('message')；
 
 function showMessage(){
-    message.innerHTML = '来迟了'；
+    message.innerHTML = '你 们 来 迟 了'；
 }
 
-discountButton.addEventListener()
+discountButton.addEventListener('click',showMessage)；
